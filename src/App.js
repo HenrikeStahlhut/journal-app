@@ -1,6 +1,7 @@
 // Imports
 import './App.css';
-import Header from "./components/Header.js"
+import '../src/components/Header.css';
+import Header from "./components/Header.js";
 
 
 // App Function with Components 
