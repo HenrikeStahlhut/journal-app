@@ -2,7 +2,7 @@
 import './App.css';
 import '../src/components/Header.css';
 import Header from "./components/Header.js";
-import Form from "./components/EntryForm.js";
+import Main from "./components/Main.js";
 
 
 // App Function with Components 
@@ -10,6 +10,7 @@ function App() {
   return (
     <>
       <Header>Journal</Header>
+      <Main />
     </>
     /* 
     
