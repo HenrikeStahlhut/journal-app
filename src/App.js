@@ -1,6 +1,8 @@
 // Imports
 import './App.css';
-import Header from "./components/Header.js"
+import '../src/components/Header.css';
+import Header from "./components/Header.js";
+import Form from "./components/EntryForm.js";
 
 
 // App Function with Components 
