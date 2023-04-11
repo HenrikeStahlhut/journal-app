@@ -1,10 +1,9 @@
-import 'Header.css '
+import './Header.css'
 
 export default function Header({children}){
     return (
-        <header className="Header">
+        <header>
             <h1>{children}</h1>
         </header>
-        
     )
 }
