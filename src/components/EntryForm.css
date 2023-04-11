@@ -6,12 +6,19 @@ form{
 
 .form__button{
     border: none;
+    border-radius: 3px;
     padding: 15px;
     margin: 20px 60px;
-    color: black;
-    background-color: orange;
+    color: var(--color-foam);
+    background-color: var(--color-nemo);
 }
 
 .form__label{
     margin: 10px 0px;
+}
+
+.form__field{
+    border-radius: 3px;
+    border: solid var(--color-water-10) 1px;
+    padding: 15px;
 }
