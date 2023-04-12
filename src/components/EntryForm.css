@@ -1,24 +1,28 @@
-form{
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
 }
 
-.form__button{
-    border: none;
-    border-radius: 3px;
-    padding: 15px;
-    margin: 20px 60px;
-    color: var(--color-foam);
-    background-color: var(--color-nemo);
+.form__button {
+  border: none;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 20px 60px;
+  color: var(--color-foam);
+  background-color: var(--color-nemo);
+}
+.form__button:hover {
+  background-color: var(--color-nemo-dark);
 }
 
-.form__label{
-    margin: 10px 0px;
+.form__label {
+  margin: 15px 0px;
 }
 
-.form__field{
-    border-radius: 3px;
-    border: solid var(--color-water-10) 1px;
-    padding: 15px;
+.form__field {
+  border-radius: 3px;
+  border: solid var(--color-water-10) 1px;
+  padding: 15px;
+  font-family: inherit;
 }

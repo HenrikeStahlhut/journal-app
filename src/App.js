@@ -1,11 +1,10 @@
 // Imports
-import './App.css';
-import '../src/components/Header.css';
+import "./App.css";
+import "../src/components/Header.css";
 import Header from "./components/Header.js";
 import Main from "./components/Main.js";
 
-
-// App Function with Components 
+// App Function with Components
 function App() {
   return (
     <>
@@ -20,7 +19,6 @@ function App() {
     </Main>
     <Footer />
     */
-   
   );
 }
 
