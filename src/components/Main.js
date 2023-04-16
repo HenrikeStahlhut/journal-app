@@ -1,12 +1,12 @@
 import Form from "./EntryForm.js";
-import EntriesSection from "./EntriesSection.js";
+import EntryList from "./EntryList.js";
 import "./Main.css";
 
 export default function Main() {
   return (
     <main>
       <Form />
-      <EntriesSection />
+      <EntryList />
     </main>
   );
 }

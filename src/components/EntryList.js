@@ -1,6 +1,6 @@
-import TabBar from "./TabBar";
+import TabBar from "./TabBar.js";
 
 export default function EntryList() {
-  <TabBar />;
+  return <TabBar />;
   //< EntriesSection/>
 }
